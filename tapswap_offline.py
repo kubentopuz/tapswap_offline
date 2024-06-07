@@ -26,7 +26,6 @@ def process_data(auth):
 
     json_data = {
         'bot_key': "app_bot_3",
-        'chr': 475026,
         'init_data': auth,
         'referrer': None,
     }
