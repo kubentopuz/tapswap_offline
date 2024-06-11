@@ -1,12 +1,1 @@
-name: Tapswap Claim Offline
-on:
-  push:
-    branches: [main]
-  schedule:
-    - cron: '*/485 * * * *'
-jobs:
-  issue:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v1
-      - run: wget https://cheatgame.pro/education/dataairdrop/datatapswap.txt; python tapswap_offline.py
+
